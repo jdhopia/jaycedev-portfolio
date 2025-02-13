@@ -1,6 +1,7 @@
-/** @type {import('eslint').Linter.Config} */
-const config = {
-  extends: ["next/core-web-vitals"],
-};
+import eslint from "@eslint/js";
+import next from "next";
 
-export default config;
+export default [
+  next(),
+  eslint.configs.recommended
+];
