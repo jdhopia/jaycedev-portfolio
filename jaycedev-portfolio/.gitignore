@@ -39,3 +39,50 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+NTUSER.DAT*
+AppData/
+OneDrive/
+Saved Games/
+Searches/
+Videos/
+Pictures/
+Music/
+Contacts/
+Downloads/
+Documents/
+Desktop/
+Links/
+
+# Ignore development environment files
+node_modules/
+.next/
+.vscode/
+.idea/
+*.log
+*.tmp
+*.swp
+
+# Ignore Python and Jupyter files
+*.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.anaconda
+*.jupyter
+*.ipython
+
+# Ignore Java, Eclipse, and Gradle files
+.gradle/
+.idea/
+eclipse-workspace/
+
+# Ignore VirtualBox and Cloud Sync Folders
+.VirtualBox/
+Creative Cloud Files*/
+
